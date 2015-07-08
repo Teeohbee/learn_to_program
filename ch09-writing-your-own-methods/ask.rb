@@ -3,13 +3,13 @@ def ask question
   while true
   	puts question
   	reply = gets.chomp.downcase
-  	
+
   	if reply == 'yes'
   		return true
   	end
-	if reply == 'no'
+	  if reply == 'no'
   		return false
-  	end		
+  	end
   		puts 'Please answer "yes" or "no".'
   end
 end
@@ -32,7 +32,7 @@ puts 'Just a few more questions...'
 ask 'Do you like eating nachos?'
 ask 'Do you like eating enchiladas?'
 
-  
+
 puts
 puts 'DEBRIEFING:'
 puts 'Thank you for taking the time to help with'
